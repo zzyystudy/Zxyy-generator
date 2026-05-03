@@ -16,7 +16,7 @@ public class MainTemplateGenerator {
         String outputPath = Path + "/Zxyy-generator-basic/acm-template/src/com/yupi/acm/MainTemplate.java";
         MainTemplateConfig model = new MainTemplateConfig();
         model.setAuthor("Zxyy");
-        model.setLoop(false);
+        model.setLoop(true);
         DynamicGenerator.doGenerator(inputPath,outputPath,model);
 
     }
